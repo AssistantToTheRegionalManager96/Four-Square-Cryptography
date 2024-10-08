@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FourSquare-WebApp.props" />
+</Project>

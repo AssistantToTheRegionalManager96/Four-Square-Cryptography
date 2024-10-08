@@ -1,0 +1,394 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container" id="mainContainer">
+    <div class="row mb-2 gx-0">
+        <textarea class="form-control" id="inputText" placeholder="Insert your plaintext here"></textarea>
+    </div>
+
+    <div class="border border-2 border-secondary rounded-3 ps-2 pe-2" id="grids">
+        <div class="row d-flex align-items-center">
+            <div class="col d-flex align-items-center p-0">
+                <div class="container gridContainer plainGridContainer pt-2 pb-2" id="upperLeftGrid">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="0,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="a" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="b" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="c" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="d" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="e" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="1,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="f" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="g" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="h" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="i" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="j" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="2,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="k" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="l" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="m" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="n" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="o" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="3,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="p" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="r" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="s" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="t" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="u" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="4,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="v" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="w" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="x" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="y" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="z" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex align-items-center p-0">
+                <div class="container gridContainer   pt-2 pb-2" id="upperRightGrid">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="0,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="A" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="B" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="C" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="D" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="E" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="1,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="F" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="G" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="H" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="I" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="J" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="2,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="K" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="L" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="M" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="N" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="O" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="3,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="P" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="R" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="S" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="T" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="U" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="4,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="V" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="W" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="X" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="Y" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="Z" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+            <div class="col d-flex align-items-center p-0">
+                <div class="container gridContainer   pt-2 pb-2" id="lowerLeftGrid">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="0,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="A" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="B" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="C" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="D" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="E" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="1,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="F" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="G" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="H" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="I" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="J" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="2,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="K" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="L" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="M" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="N" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="O" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="3,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="P" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="R" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="S" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="T" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="U" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="4,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="V" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="W" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="X" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="Y" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="Z" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col d-flex align-items-center p-0">
+                <div class="container gridContainer plainGridContainer pt-2 pb-2" id="lowerRightGrid">
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="0,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="a" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="b" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="c" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="d" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="0,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="e" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="1,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="f" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="g" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="h" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="i" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="1,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="j" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="2,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="k" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="l" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="m" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="n" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="2,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="o" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="3,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="p" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="r" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="s" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="t" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="3,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="u" />
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col d-flex align-items-center" index="4,0">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="v" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,1">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="w" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,2">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="x" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,3">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="y" />
+                        </div>
+                        <div class="col d-flex align-items-center" index="4,4">
+                            <input type="text" maxLength="1" class="form-control  text-center" value="z" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row justify-content-end mt-2 gx-0">
+        <div class="col d-flex justify-content-start text-start">
+            <button class="btn btn-primary" id="switchButton">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                Switch mode
+            </button>
+        </div>
+        <div class="col d-flex justify-content-end text-end">
+            <button class="btn btn-primary" id="runButton">Encrypt</button>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center mt-1 gx-0">
+        <textarea class="form-control" id="outputText" placeholder="Your encrypted text will show here"></textarea>
+    </div>
+</div>
+
+

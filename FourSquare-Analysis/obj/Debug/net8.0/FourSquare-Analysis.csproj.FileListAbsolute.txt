@@ -1,0 +1,14 @@
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\FourSquare-Analysis.exe
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\FourSquare-Analysis.deps.json
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\FourSquare-Analysis.runtimeconfig.json
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\FourSquare-Analysis.dll
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\FourSquare-Analysis.pdb
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.AssemblyInfoInputs.cache
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.AssemblyInfo.cs
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.csproj.CoreCompileInputs.cache
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.dll
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\refint\FourSquare-Analysis.dll
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.pdb
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.genruntimeconfig.cache
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\ref\FourSquare-Analysis.dll

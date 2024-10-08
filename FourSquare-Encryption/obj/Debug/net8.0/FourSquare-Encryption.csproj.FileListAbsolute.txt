@@ -1,0 +1,14 @@
+C:\Repositories\FourSquare\FourSquare-Encryption\bin\Debug\net8.0\FourSquare-Encryption.exe
+C:\Repositories\FourSquare\FourSquare-Encryption\bin\Debug\net8.0\FourSquare-Encryption.deps.json
+C:\Repositories\FourSquare\FourSquare-Encryption\bin\Debug\net8.0\FourSquare-Encryption.runtimeconfig.json
+C:\Repositories\FourSquare\FourSquare-Encryption\bin\Debug\net8.0\FourSquare-Encryption.dll
+C:\Repositories\FourSquare\FourSquare-Encryption\bin\Debug\net8.0\FourSquare-Encryption.pdb
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.AssemblyInfoInputs.cache
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.AssemblyInfo.cs
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.csproj.CoreCompileInputs.cache
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.dll
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\refint\FourSquare-Encryption.dll
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.pdb
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\FourSquare-Encryption.genruntimeconfig.cache
+C:\Repositories\FourSquare\FourSquare-Encryption\obj\Debug\net8.0\ref\FourSquare-Encryption.dll
