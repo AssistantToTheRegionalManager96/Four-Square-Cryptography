@@ -48,3 +48,13 @@ body {
 #grids {
     width: 100%;
 }
+
+textarea {
+    opacity: 0.5;
+}
+
+#outputTextHighlight {
+    position:absolute;
+    opacity: 0.9;
+    z-index: -1;
+}

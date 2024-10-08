@@ -153,7 +153,7 @@ for (int k = 0; k < 100; k++)
         {
             sum += incidence * (incidence - 1);
         }
-
+        
         var indexOfCoincidence = (sum*26)/(double)(decryptedText.Length*(decryptedText.Length - 1));
         solutions.Add(decryptedText, Math.Abs(1.73-indexOfCoincidence));
     }

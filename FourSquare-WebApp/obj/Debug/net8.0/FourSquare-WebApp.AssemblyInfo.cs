@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FourSquare-WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+270e407caa9e6e0fa2e51c585c45e0600ce60478")]
 [assembly: System.Reflection.AssemblyProductAttribute("FourSquare-WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FourSquare-WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

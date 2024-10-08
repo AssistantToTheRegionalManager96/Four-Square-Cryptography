@@ -1,6 +1,7 @@
 ﻿var mode = 0;
 var lastInput;
 var lastOutput;
+var lastHighlightedDigraphPosition;
 
 var ctrlDown = false;
 
@@ -88,6 +89,20 @@ gridMoveDown = (gridName, element) => {
     nextElement.focus();
 }
 
+highlightDigraph = (cursorPosition) => {
+    if (lastHighlightedDigraphPosition != undefined && lastHighlightedDigraphPosition != null) {
+        var digraph = $('#outputTextHighlight').children()[lastHighlightedDigraphPosition];
+        $(digraph).removeClass("text-danger");
+    }
+
+    var digraphPosition = Math.ceil(cursorPosition / 2);
+    var digraph = $('#outputTextHighlight').children()[digraphPosition];
+    $(digraph).addClass("text-danger");
+    lastHighlightedDigraphPosition = digraphPosition;
+    console.log(cursorPosition);
+    console.log(digraphPosition);
+}
+
 encrypt = () => {
     var plaintext = $('#inputText').val();
     var simplifiedPlaintext = plaintext.replace(/[^a-zA-Z]/g, '');
@@ -118,7 +133,23 @@ encrypt = () => {
 
     lastInput = plaintext;
     lastOutput = encryptedMessageChars.join("");
-    $('#outputText').val(encryptedMessageChars.join(""));
+    $('#outputText').html(encryptedMessageChars.join(""));
+
+    var encryptedDigrams = encryptedMessageChars.reduce((acc, item, index) => {
+        const i = Math.floor(index / 2)
+        if (!acc[i]) {
+            acc[i] = '';
+        }
+        acc[i] = acc[i].concat(item);
+        return acc
+    }, []) 
+
+    $('#outputTextHighlight').empty();
+    encryptedDigrams.forEach((item) => {
+        var element = document.createElement("span");
+        $(element).html(item);
+        $('#outputTextHighlight')[0].appendChild(element);
+    })
 }
 
 decrypt = () => {
@@ -154,7 +185,7 @@ decrypt = () => {
 
     lastInput = inputText;
     lastOutput = plaintextChars.join("");
-    $('#outputText').val(plaintextChars.join(""));
+    $('#outputText').html(plaintextChars.join(""));
 }
 
 $(document).on('keydown', (evt) => {
@@ -220,7 +251,19 @@ $('#outputText').on('keydown', (evt) => {
         evt.preventDefault();
         return;
     }
+
+    if (arrowKeys.includes(evt.key)) highlightDigraph($('#outputText').prop("selectionStart"));
 })
+
+$('#outputText').on('click', () => { highlightDigraph($('#outputText').prop("selectionStart")); })
+
+$(window).resize(function () {
+    var outputTextHighlight = $('#outputTextHighlight');
+    outputTextHighlight.width($("#outputText").width());
+    outputTextHighlight.height($("#outputText").height());
+})
+
+
 
 $('#switchButton').on('click', () => {
     if (mode == 0) {
@@ -250,3 +293,13 @@ $('#switchButton').on('click', () => {
         $('#inputText').attr("placeholder", "Insert your plaintext here");
     }
 })
+
+
+
+
+$(document).ready(function () {
+    var outputTextHighlight = $('#outputTextHighlight');
+    outputTextHighlight.width($("#outputText").width());
+    outputTextHighlight.height($("#outputText").height());
+    outputTextHighlight.html($("#outputText").val());
+});

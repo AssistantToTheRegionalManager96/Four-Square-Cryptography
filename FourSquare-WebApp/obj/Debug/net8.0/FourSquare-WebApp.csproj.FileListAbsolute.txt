@@ -28,3 +28,4 @@ C:\Repositories\FourSquare\FourSquare-WebApp\obj\Debug\net8.0\refint\FourSquare-
 C:\Repositories\FourSquare\FourSquare-WebApp\obj\Debug\net8.0\FourSquare-WebApp.pdb
 C:\Repositories\FourSquare\FourSquare-WebApp\obj\Debug\net8.0\FourSquare-WebApp.genruntimeconfig.cache
 C:\Repositories\FourSquare\FourSquare-WebApp\obj\Debug\net8.0\ref\FourSquare-WebApp.dll
+C:\Repositories\FourSquare\FourSquare-WebApp\obj\Debug\net8.0\FourSquare-WebApp.sourcelink.json
