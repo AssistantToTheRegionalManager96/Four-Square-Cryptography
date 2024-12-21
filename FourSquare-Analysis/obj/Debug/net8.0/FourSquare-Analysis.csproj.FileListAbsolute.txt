@@ -12,3 +12,8 @@ C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\refint\FourSquar
 C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.pdb
 C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.genruntimeconfig.cache
 C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\ref\FourSquare-Analysis.dll
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Repositories\FourSquare\FourSquare-Analysis\bin\Debug\net8.0\libvideo.dll
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.csproj.AssemblyReference.cache
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.sourcelink.json
+C:\Repositories\FourSquare\FourSquare-Analysis\obj\Debug\net8.0\FourSquare-Analysis.csproj.CopyComplete

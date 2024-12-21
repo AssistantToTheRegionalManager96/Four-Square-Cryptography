@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FourSquare-Analysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17de59cd30d1ff1ed47e93cea3f850b4ae47f12a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FourSquare-Analysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FourSquare-Analysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

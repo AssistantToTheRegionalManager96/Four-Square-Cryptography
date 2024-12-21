@@ -6,6 +6,26 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
+
+using VideoLibrary;
+
+
+
+
+
+//var VedioUrl = "https://www.youtube.com/embed/" + "FS_e9EVYtO4&t=611s" + ".mp4";
+//var youTube = YouTube.Default;
+//var video = youTube.GetVideo(VedioUrl);
+//var bytes = video.GetBytes();
+//System.IO.File.WriteAllBytes("C:\\MPC\\a\\" + video.FullName + ".mp4", video.GetBytes());
+
+
+
+
+
+
+
+
 // SETUP START ------------------
 
 var cipher = "JBYEUAYCBUUENYOUMCODVOCNIELJBSPFUINOGHROGDESGPJCIGTASIDUJBYEJSGVIONSNWYZFLUWROZDOBXGDSTERNDWDPPDMVRLCUCWMUNJNTNSRLENODNXSVGEDJKLYULVMNLRKNNDZYZEOBNDMNTWSUUEKCOADAFYBUIHNSHLMMCUDSRTLSCNMPIHUOEGNJNDCUPARDFHUIYHDSJSGVIONS";
